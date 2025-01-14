@@ -16,7 +16,6 @@
 }
 
 .faetuers_title p{
-    color: #B6B6B6;
     font-size: 18px;
     
 }
@@ -30,7 +29,7 @@
 .box_card {
     padding: 20px;
     margin: 0px 50px;
-    background-color: rgba(255, 255, 255, 0.01);
+    background-color: rgba(255, 255, 255, 0.05);
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255, 0.05);
 }
@@ -40,7 +39,6 @@
 }
 
 .box_card p{
-    color: #B6B6B6;
     margin-bottom: 30px;
 }
 
@@ -53,3 +51,64 @@
 .box_card a img{
     padding-left: 20px;
 }
+/* action */
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 220px;
+}
+
+.action_title h4 {
+    font-size: 24px;
+}
+
+.action_title p{
+    width: 60%;
+}
+
+
+/* get_block */
+.get_block {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+}
+
+.get_block_title h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.get_block_title p {
+    width: 75%;
+}
+
+.get_block_title button{
+    margin-top: 40px;
+}
+
+
+.get_block_box1 {
+    display: flex;
+
+}
+
+.get_block_box1 div {
+    margin-left: 30px;
+    width: 60%;
+}
+
+.get_block_box1 h6{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
