@@ -1,0 +1,55 @@
+.faetuers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px 80px;
+}
+
+.faetuers_title{
+    text-align: center;
+    margin-bottom: 69px;
+}
+
+.faetuers_title h1{
+    font-size: 36px;
+    width: bold;
+}
+
+.faetuers_title p{
+    color: #B6B6B6;
+    font-size: 18px;
+    
+}
+
+.faetuers_box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box_card {
+    padding: 20px;
+    margin: 0px 50px;
+    background-color: rgba(255, 255, 255, 0.01);
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255, 0.05);
+}
+
+.box_card h3{
+    font-size: 20px;
+}
+
+.box_card p{
+    color: #B6B6B6;
+    margin-bottom: 30px;
+}
+
+.box_card a{
+    color: #0FAE96;
+    text-decoration: none;
+
+}
+
+.box_card a img{
+    padding-left: 20px;
+}
