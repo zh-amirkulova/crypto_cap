@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px;
+    border: 1px solid rgb(255, 255, 255, 0.05);;
+}
+
+.footer_card img {
+    margin: 20px 0px;
+
+}
+
+.footer_card h5{
+    font-size: 18px;
+}

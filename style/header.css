@@ -28,6 +28,26 @@ body p {
     color: white;
 }
 
+.header_select {
+    background-color: rgb(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+select {
+    width: 50px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.001);
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+  }
+
+option {
+    background-color: rgb(255, 255, 255, 0.001);;
+    color: #333;
+    font-size: 14px;
+}
 
 .button {
     padding: 15px 35px;
@@ -82,14 +102,15 @@ body p {
     justify-content: space-between;
 }
 
+
 .box_content li{
     list-style-type: none;
     background-color: rgb(255, 255, 255, 0.05);
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255, 0.05);
     padding: 50px 30px;
-    /* margin: 0px 20px; */
 }
+
 
 
 .box_first, 

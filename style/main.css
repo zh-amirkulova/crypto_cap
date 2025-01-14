@@ -57,7 +57,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 220px;
+    margin: 120px 220px;
 }
 
 .action_title h4 {
@@ -103,6 +103,80 @@
 .get_block_box1 h6{
     font-size: 20px;
     margin-bottom: 20px;
+}
+
+
+/* about */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 0px 120px 40px 120px;
+}
+
+.about_title {
+    text-align: center;
+}
+
+.about_title h1{
+    font-size: 36px;
+    width: bold;
+}
+
+.about_articles {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+
+.articles_first,
+.articles_second,
+.articles_first_1 {
+    display: flex;
+}
+
+.articles_first_1 {
+    margin-left: 20px;
+}
+
+.articles_img{
+    margin-right: 20px;
+}
+
+.articles_second {
+    margin-top: 20px;
+}
+
+
+.article_text {
+    margin: 20px;
+}
+
+.article_text h6 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.article_text p{
+    font-size: 12px;
+}
+
+.button_crypto {
+    font-size: 7px;
+    color: #B6B6B6;
+    width: 20%;
+    background-color: rgb(255, 255, 255, 0.05);
+    border-radius: 3px;
+    border: 1px solid rgb(255, 255, 255, 0.05);
+    padding: 4px;
+}
+
+.all_articles a{
+    color: #0FAE96;
+    text-decoration: none;
+    margin-bottom: 40px;
 }
 
 
